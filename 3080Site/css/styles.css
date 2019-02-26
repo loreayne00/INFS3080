@@ -48,3 +48,43 @@ p {
 .sneaky {
     color: white
 }
+.navigation {
+    display: block;
+    margin: 10px;
+}
+#nav {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+#nav li {
+    float: left;
+    width: 150px;
+    height: 30px;
+    background-color: plum;
+    border-radius: 5px;
+    opacity: .75;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 2px;
+    color: black;
+
+}
+#nav li a {
+    text-decoration: none;
+    color: blueviolet;
+    display: block;
+}
+#nav li a:hover{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+#nav li ul li {
+    display: none;
+
+}
+#nav li:hover ul li {
+    display: block;
+    background-color: white;
+}

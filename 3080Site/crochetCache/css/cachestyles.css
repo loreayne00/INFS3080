@@ -5,6 +5,9 @@
 }
 .header img {
   align-content: center;
+  border: 10px;
+  border-color: plum;
+  border-radius: 30px;
   height: 60%;
   width: 70%;
 }
@@ -64,7 +67,7 @@
   height: 60px;
   background-color: gray;
   border-color: plum;
-  border-radius: 5px;
+  border-radius: 10px;
     line-height: 60px;
   text-align: center;
   align-content: center;
@@ -85,7 +88,7 @@
 #nav li a:hover {
   background-color: plum;
   color: white;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 #nav li ul li {
@@ -96,6 +99,14 @@
   display: block;
   color: white;
 }
+body {
+  background-image: url("/crochetCache/Images/SugarwheelWanderlustScarf3.JPG");
+  background-repeat: repeat;
+  margin-right: 15%;
+  margin-left: 15%;
+  background-position: right top;
+  background-attachment: fixed;
+}
 
 
 
@@ -103,3 +114,4 @@ h3 {
  color:#8d7c68; 
 
 
+}

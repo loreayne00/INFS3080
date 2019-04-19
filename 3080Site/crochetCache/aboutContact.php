@@ -29,6 +29,14 @@
                                   <h2>Contact Me</h2>
                                   <p>Please feel free to fill out the form below to contact me with any questions or comments you might have about the Crochet Cache. Thanks for stopping by!</p>
                                   <br>
+                                 
+                                 
+ <!-- This is to call the PHP process -->
+<?php require_once "php/insert.php"; ?>
+<?php
+//Connection to database
+$mysqli = new mysqli('localhost', 'infs3080', 'webclass', 'infs3080') or
+die(mysqli_error($mysqli)); ?>
                                   
 <div class="container">
   <form action="/action_page.php">
@@ -50,7 +58,7 @@
   </div>
   <div class="row">
     <div class="col-25">
-      <label for="lname">Email</label>
+      <label for="email">Email</label>
     </div>
     <div class="col-75">
       <input type="text" id="email" name="email" placeholder="name@something.com">
